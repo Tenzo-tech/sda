@@ -1,0 +1,45 @@
+body {
+    background-color: #e490b3;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .card h1 {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  .signature {
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  .heart {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: red;
+  }
